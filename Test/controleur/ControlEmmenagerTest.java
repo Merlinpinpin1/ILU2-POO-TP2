@@ -23,8 +23,8 @@ class ControlEmmenagerTest {
 		ControlEmmenager crtlEmmanager = new ControlEmmenager(village);
 		crtlEmmanager.ajouterGaulois("Bonemine", 3);
 		crtlEmmanager.ajouterDruide("Panoramix", 6,4,8);
-		assertFalse(crtlEmmanager.isHabitant("Bonemine"));
-		assertFalse(crtlEmmanager.isHabitant("Panoramix"));
+		assertTrue(crtlEmmanager.isHabitant("Bonemine"));
+		assertTrue(crtlEmmanager.isHabitant("Panoramix"));
 	}
 
 }
