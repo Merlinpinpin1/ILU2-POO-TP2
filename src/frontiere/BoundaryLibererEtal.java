@@ -22,7 +22,7 @@ public class BoundaryLibererEtal {
 			if (Boolean.parseBoolean(etalOccupe))
 			{
 				System.out.println(" Vous avez vendu " + donneesEtal[4] + " sur " + donneesEtal[3] + " " + donneesEtal[2]);
-				System.out.println(" Au revoir " + nomVendeur + " , passez ue bonne journée ");
+				System.out.println(" Au revoir " + nomVendeur + " , passez une bonne journée ");
 			}
 			
 		}

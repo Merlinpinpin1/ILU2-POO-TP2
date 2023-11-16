@@ -21,7 +21,7 @@ public class BoundaryAfficherMarche {
 			System.out.println( nomAcheteur + " Vous trouverez au marche : " );
 			for (int i = 0 ; i<infosMarche.length ; i=i+3 )
 			{
-				System.out.println( infosMarche[i] + " qui vend  " +  infosMarche[i+1] + " " + infosMarche[i+2]);
+				System.out.println("-" + infosMarche[i] + " qui vend  " +  infosMarche[i+1] + " " + infosMarche[i+2]);
 			}
 		}
 	}
